@@ -38,10 +38,12 @@ def randomnum():
                             list2 = []
                             for i in range(n):
                                 Xi = (a*Xo + c) % m
-                                Ri = Xi / m
+                                Xo = Xi
+                                ri = Xi / m
+                                Ri = round(ri, 3)
                                 list1.append(Xi)
                                 list2.append(Ri)
-                                Xo = Xi
+                                
                             print("Random integer values(Xi) = ",list1,"\n")
                             print("Random numbers(Ri) = ",list2)
                             return
