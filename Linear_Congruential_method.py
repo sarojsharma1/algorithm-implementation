@@ -64,4 +64,10 @@ if __name__ == "__main__":
     print("--------Linear Congruential method","\n",
           "--------Techniques for Generating Random Number","\n",
           "--------produce a sequence of integers x1, x2...between 0 and m-1","\n")
-    randomnum()
+    char = 'N'
+    while char=='N':
+        randomnum()
+        print("\n")
+        print("Press 'Y' to exit program")
+        char = input("character = ")
+        print("\n")
