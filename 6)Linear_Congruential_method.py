@@ -59,10 +59,11 @@ def randomnum():
 if __name__ == "__main__":
     
     print("Saroj Sharma,BCT B 73071","\n")
-   
-    print("-----Linear Congruential method","\n",
-          "----Techniques for Generating Random Number","\n",
-          "----produce a sequence of integers x1, x2...between 0 and m-1","\n")
+    
+     print("-----Linear Congruential method","\n",
+          "----Techniques for Generating Random Numbers","\n",
+          "----produce a sequence of integers x1, x2...between 0 and m-1","\n"
+          "-----such that, Xi+1 = (a*Xi + c) mod m","\n")
     
     randomnum()
         
